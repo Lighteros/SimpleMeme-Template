@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>TOKEN</title>
+<meta name="description" content="TOKEN">
+<meta property="og:title" content="TOKEN">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/logo.svg">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="css/style.css">
+<script src="config.js"></script>
+</head>
+<body>
+<main class="wrap">
+  <img id="logo" class="logo" src="img/logo.svg" alt="TOKEN logo" width="200" height="200" decoding="async" fetchpriority="high">
+  <h1 id="name" class="name">TOKEN</h1>
+  <p id="ticker" class="ticker">$TKN</p>
+
+  <button id="ca" class="ca" type="button" aria-label="Copy contract address">
+    <span class="ca-label">CA</span>
+    <code id="ca-text" class="ca-text">TBA</code>
+    <svg class="ca-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+  </button>
+  <p id="copy-status" class="status" role="status" aria-live="polite"></p>
+
+  <a id="x" class="x" href="#" target="_blank" rel="noopener noreferrer" aria-label="Follow on X">
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M18.9 2H22l-6.8 7.8L23 22h-6.2l-4.8-6.3L6.4 22H3.3l7.3-8.3L1 2h6.3l4.4 5.8L18.9 2Zm-1.1 18h1.7L6.3 3.9H4.5L17.8 20Z"/></svg>
+    <span>Follow on X</span>
+  </a>
+</main>
+<script src="js/main.js" defer></script>
+</body>
+</html>
